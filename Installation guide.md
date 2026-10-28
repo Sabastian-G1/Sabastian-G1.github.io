@@ -1,4 +1,5 @@
 Installation guide
+
 1- Downloaded my iso from rit.edu, the archlinux-2026.10.01-x86_64.iso version to be specific
 
 2-used the typical VMWare set-up, then pressed install the OS later, used the otherLinux6.k version, named the VM Arch Linux (straight forward so far)
