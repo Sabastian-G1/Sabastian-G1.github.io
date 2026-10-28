@@ -1,4 +1,4 @@
-#Installation guide
+# Installation guide
 
 1- Downloaded my iso from rit.edu, the archlinux-2026.10.01-x86_64.iso version to be specific
 
@@ -83,12 +83,17 @@
 26-Using that helper I installed VS code using the following command yay -S visual-studio-code-bin
 
 
-Problems I ran into
-	Adding a space after the = in all of the alias prompts, took me 10 minutes and a google search to figure that out
-	I ran the mount commands in reverse order, had to google why the mount point didn't exist(mount /dev/sda1 /mnt/boot before making the directory)
-	Ran into an issue with the Sabastian user not being in the sudoers file, forgot the -G wheel in the useradd -m -G wheel -s /bin/bash Sabastian command
-	I had a black screen after my reboot, put a 1 in the sudo systemctl enable sddm command (sudo systemct1 enable sddm), just being stupid and not reading thoroughly
+# Problems I ran into
 
+1- Adding a space after the = in all of the alias prompts, took me 10 minutes and a google search to figure that out
+
+2- I ran the mount commands in reverse order, had to google why the mount point didn't exist(mount /dev/sda1 /mnt/boot before making the directory)
+
+3- Ran into an issue with the Sabastian user not being in the sudoers file, forgot the -G wheel in the useradd -m -G wheel -s /bin/bash Sabastian command
+
+4- I had a black screen after my reboot, put a 1 in the sudo systemctl enable sddm command (sudo systemct1 enable sddm), just being stupid and not reading thoroughly
+
+# Thoughts
 Overall, it was a lot of reading and many tabs being opened at once but it was really educational and a fun experience, took about as long as I thought it would and I had shockingly less errors than I thought I would have, probably due to the amount of reading I did and double checking what I had read was actually correct and would work.	
 	
 	
