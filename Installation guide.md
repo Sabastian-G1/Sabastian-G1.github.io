@@ -1,4 +1,4 @@
-Installation guide
+#Installation guide
 
 1- Downloaded my iso from rit.edu, the archlinux-2026.10.01-x86_64.iso version to be specific
 
